@@ -1,0 +1,17 @@
+ALGORITHM algo2
+VAR
+    t1[3,1,7,9];
+    t2[2,4,1,9,3];
+BEGIN
+ sum:=0
+ for (i=0 ; i<t1.lenght )
+  for (j=0 ; j<t2.lenght ; j++)
+
+  
+  IF (t1[i]!=t2[j]) THEN
+    sum:=sum + t1[i] + t2[j]
+  ELSE
+    sum:=sum
+  END_IF
+
+END
